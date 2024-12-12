@@ -1,0 +1,15 @@
+CREATE DATABASE COLLEGE;
+USE COLLEGE;
+CREATE TABLE STUDENT(
+ ID INT primary key,
+ NAME varchar(20),
+ AGE INT not null
+);
+
+
+CREATE DATABASE IF NOT exists COLLEGE;
+DROP DATABASE IF EXISTS TALIDU;
+
+SHOW databases; 
+
+show tables;
